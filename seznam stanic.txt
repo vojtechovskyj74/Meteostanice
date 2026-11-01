@@ -1,0 +1,108 @@
+// =================== 3. SEZNAM RÁDIOSTANIC ===================
+const char* stationNames[] = {
+    "Evropa 2",           //  0
+    "Kiss",               //  1       
+    "Bonton",             //  2
+    "Signal",             //  3
+    "Fajn",               //  4
+    "City",               //  5
+    "CS Radio",           //  6  
+    "E2 CS Hity",         //  7
+    "Cesky Blanik",       //  8
+    "Blanik",             //  9  
+    "Cesky Impuls",       // 10  
+    "Impuls",             // 11       
+    "Country radio",      // 12
+    "Beat",               // 13
+    "Relax",              // 14
+    "Radio 1",            // 15
+    "Helax",              // 16   
+    "Frekvence 1",        // 17
+    "Exclusively PSB",    // 18 
+    "M.Jackson",          // 19
+    "Madona",             // 20
+    "Phill Colins",       // 21 
+    "Metalica",           // 22
+    "Tommorowland",       // 23
+    "CRo Radiozurnal",    // 24
+    "CRo Dvojka",         // 25
+    "CRo Vltava",         // 26
+    "Radio Diana",        // 27
+    "Radio Humor",        // 28 
+    "Radio Povidka",      // 29       
+    "Radio Pohadka"       // 30         
+};
+
+const char* stationHosts[] = {
+    "playerservices.streamtheworld.com",        //  0 E2
+    "icecast1.play.cz",                         //  1 Kiss
+    "ice.actve.net",                            //  2 Bonton
+    "icecast1.play.cz",                         //  3 Signal 
+    "ice.abradio.cz",                           //  4 Fajn 
+    "ice.abradio.cz",                           //  5 City
+    "gw2.mysoft.cz:8000",                       //  6 CS Radio
+    "ice.actve.net",                            //  7 E2 CS
+    "ice.abradio.cz",                           //  8 C Blanik
+    "ice.abradio.cz",                           //  9 Blanik
+    "icecast6.play.cz",                         // 10 C Impuls
+    "icecast1.play.cz",                         // 11 Impuls
+    "icecast4.play.cz",                         // 12 Country
+    "icecast2.play.cz",                         // 13 Beat
+    "icecast7.play.cz",                         // 14 Relax
+    "icecast5.play.cz",                         // 15 Radio 1
+    "playerservices.streamtheworld.com",        // 16 Helax
+    "ice.actve.net",                            // 17 F1
+    "nl4.mystreaming.net",                      // 18 PSB
+    "streaming.exclusive.radio",                // 19 M.Jackson
+    "nl4.mystreaming.net",                      // 20 Madona
+    "streaming.exclusive.radio",                // 21 Colins
+    "streaming.exclusive.radio",                // 22 Metalica
+    "play.ilovemusic.de",                       // 23 Tommorowland
+    "icecast7.play.cz",                         // 24 CRo RJ
+    "icecast6.play.cz",                         // 25 CRo dvojka
+    "icecast6.play.cz",                         // 26 CRo Vltava
+    "westradio.cz",                             // 27 Diana
+    "playerservices.streamtheworld.com",        // 28 Humor
+    "ice2.abradio.cz",                          // 29 Povidka
+    "ice3.abradio.cz"                           // 30 Pohadka
+    
+    
+};
+ 
+const char* stationPaths[] = {
+    
+    
+    "/api/livestream-redirect/EVROPA2AAC.aac",    // E2            0
+    "/kiss128.mp3",                               // Kiss          1  
+    "/fm-bonton-128",                             // Bonton        2
+    "/signal128.mp3",                             // Signal        3
+    "/fajn128.mp3",                               // Fajn          4
+    "/cityfm128.mp3",                             // City          5
+    "/csradio128",                                // CS Radio      6
+    "/web-e2-csweb",                              // E2 CS         7
+    "/blanikcz128.mp3",                           // C Blanik      8
+    "/blanikfm128.mp3",                           // Blanik        9 
+    "/cesky-impuls.mp3",                          // C Impuls     10 
+    "/impuls128.mp3",                             // Impuls       11
+    "/country128.mp3",                            // Country      12 
+    "/radiobeat128.mp3",                          // Beat         13
+    "/relax128.mp3",                              // Relax        14
+    "/radio1-128.mp3",                            // Radio 1      15
+    "/api/livestream-redirect/RADIO_HELAXAAC.aac",// Helax        16
+    "/fm-frekvence1-128",                         // F1           17
+    "/er/petshopboys/icecast.audio",              // PSB          18
+    "/er/michaeljackson/icecast.audio",           // Jackson      19
+    "/er/madonna/icecast.audio",                  // Madona       20
+    "/er/philcollins/icecast.audio",              // Colins       21
+    "/er/metallica/icecast.audio",                // Metalica     22 
+    "/ilm-itomorrowland_one_world_radio_germany", // Tommorowland 23 
+    "/cro1-128.mp3",                              // CRo RJ       24
+    "/cro2-128.mp3",                              // CRo 2        25
+    "/cro3-128.mp3",                              // CRo Vltava   26
+    "/radio/8010/radio.mp3",                      // Diana Com.   27 
+    "/api/livestream-redirect/RADIO_HUMOR.aac",   // Humor        28
+    "/povidka128.aac",                            // Povidka      29
+    "/pohadka128.mp3"                             // Pohadka      30
+    
+    
+};
